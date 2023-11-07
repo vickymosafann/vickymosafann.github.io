@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Komunitas Karate</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="forum.html">Forum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">Sejarah</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="forum-post">
+        <table class="post-content">
+            <tr>
+                <td class="post-thumbnail">
+                    <img src="inkanas.png" alt="Jember Karate Club" width="250" height="250">
+                </td>
+                <td class="post-description">
+                    <h2 class="post-title">Jember Karate Club (BKC)</h2>
+                    <div class="post-meta">
+                        <a href="https://komunita.id/listing-category/olahraga" class="category-link">Olahraga</a>
+                    </div>
+                    <p>
+                        Jember Karate Club (JKC) adalah komunitas bela diri yang didirikan di Jember pada tanggal 16 Juni 1950 oleh vickymosafan. Sejak tahun 1955, telah dirintis pendiriannya dengan nama Jember Karate School for Self Defence. JKC didirikan dengan maksud menghimpun pemuda, pelajar serta berbagai kalangan dalam pembinaan olahraga beladiri berdasarkan kekeluargaan, hormat-menghormati serta saling mencintai antara satu dan sesamanya.
+                    </p>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Formulir Pendaftaran -->
+        <div class="registration-form">
+            <h3 class="form-title">Pendaftaran Anggota</h3>
+            <form action="proses_pendaftaran.php" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <input type="submit" value="Daftar">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

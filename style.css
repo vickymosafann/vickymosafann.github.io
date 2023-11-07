@@ -1,0 +1,204 @@
+/* --------------------------- */
+/* style index */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #252525;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+ol {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+}
+h1 {
+    font-size: 1.5em;
+}
+
+p {
+    max-width: 1700px; /* Sesuaikan dengan lebar maksimum yang Anda inginkan */
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/* Style for the single slide */
+.single-slide {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+
+/* Style for the title in the slide text */
+.slide-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Style for the description in the slide text */
+.slide-text p {
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Spasi pada link */
+    font-size: 110%;
+}
+
+/* Style for the slide image */
+.single-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style for the slide text */
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; /* Warna teks */
+    text-shadow: -2px 4px 4px black;
+}
+
+/* Style for the navigation */
+.nav {
+    list-style-type: none;
+    display: flex;
+    background-color: #333; /* Warna latar belakang nav */
+    padding: 0;
+}
+
+.nav-item {
+    margin: 1%;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: #555; /* Warna latar belakang saat aktif atau hover */
+    font-size: 125%;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Style the header */
+/* Style custom horizontal rule (hr) */
+.custom-hr {
+    background-color: black;
+    height: 2px;
+    width: 80px;
+    border: none;
+    margin-left: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+}
+
+/* --------------------------------------------------------------- */
+/* style about */
+
+.about-section {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 18px;
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: #e8e8e8;
+}
+
+.contact-title {
+    font-size: 24px;
+}
+
+.contact-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.method-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.method-description {
+    font-size: 16px;
+}
+
+.team-section {
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+.team-title {
+    font-size: 24px;
+}
+
+.team-member {
+    margin-top: 20px;
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.member-role {
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.s2 {
+    text-align: center;
+}
+
+.custom-hrs {
+    background-color: black;
+    height: 2px;
+    width: 380px;
+    border: none;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------- */
+/* style forum */
+.registration-form{
+    text-align: center;
+}
